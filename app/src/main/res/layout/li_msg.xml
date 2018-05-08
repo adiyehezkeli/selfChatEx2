@@ -2,9 +2,11 @@
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msg_layout"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:minHeight="@dimen/msg_height">
+    android:minHeight="108dp"
+    android:longClickable="true">
     <TextView
         android:id="@+id/list_name"
         android:layout_width="wrap_content"
@@ -31,4 +33,4 @@
         android:textSize="12sp"
         android:padding="10dp"
         android:layout_alignParentEnd="true" />
-    </RelativeLayout>
+</RelativeLayout>

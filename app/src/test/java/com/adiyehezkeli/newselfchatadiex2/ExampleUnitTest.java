@@ -1,4 +1,4 @@
-package com.adiyehezkeli.selfchatadi;
+package com.adiyehezkeli.newselfchatadiex2;
 
 import org.junit.Test;
 

@@ -1,12 +1,12 @@
-package com.adiyehezkeli.selfchatadi;
+package com.adiyehezkeli.newselfchatadiex2;
 
 public class Message {
 
     private String name;
     private String message;
-    private String timeStamp;
+    private long timeStamp;
 
-    public Message(String aName, String msg, String time)
+    public Message(String aName, String msg, long time)
     {
         name = aName;
         message = msg;
@@ -22,7 +22,7 @@ public class Message {
         return name;
     }
 
-    public String getTimeStamp() {
+    public long getTimeStamp() {
         return timeStamp;
     }
 }

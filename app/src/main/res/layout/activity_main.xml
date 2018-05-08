@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <EditText
         android:id="@+id/text_edit_location"
@@ -20,7 +27,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:onClick="sendMessage"
-        android:text="@string/send"
+        android:text="Send"
         />
 
     <ListView
@@ -30,10 +37,4 @@
         android:layout_alignParentTop="true">
     </ListView>
 
-    <LinearLayout
-        android:id="@+id/activity_main_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    </LinearLayout>
 </RelativeLayout>

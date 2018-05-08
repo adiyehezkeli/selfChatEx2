@@ -1,4 +1,4 @@
-package com.adiyehezkeli.selfchatadi;
+package com.adiyehezkeli.newselfchatadiex2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.adiyehezkeli.selfchatadi", appContext.getPackageName());
+        assertEquals("com.adiyehezkeli.newselfchatadiex2", appContext.getPackageName());
     }
 }
